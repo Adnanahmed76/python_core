@@ -13,6 +13,7 @@ class movie:
             self.booked_seats+=number_of_ticket
             print(f"{number_of_ticket} tickets booked successfully for {self.movie_name}.")
             print(f"Total booked seats: {self.booked_seats}")
+            print(f" Total prince = {self.ticket_price*number_of_ticket}\n")
 
 
     def show_status(self)->None:
